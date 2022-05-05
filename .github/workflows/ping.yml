@@ -14,4 +14,4 @@ jobs:
       - name: Curl URL
         run: |
           # Your Repl site link goes here ↓
-          curl -s -S --retry 2 https://rrisd-bypass.s666666.repl.co/ 
+          watch 600 curl -s -S https://rrisd-bypass.s666666.repl.co/ 
