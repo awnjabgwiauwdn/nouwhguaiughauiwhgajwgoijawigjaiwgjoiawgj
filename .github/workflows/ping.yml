@@ -12,6 +12,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Curl URL
-        run: |
-          # Your Repl site link goes here ↓
-          watch 600 curl -s -S https://rrisd-bypass.s666666.repl.co/ 
+        run: watch -q 600 curl -S https://rrisd-bypass.s666666.repl.co/
